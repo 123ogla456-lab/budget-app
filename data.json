@@ -201,6 +201,14 @@
       "plan": 0,
       "color": "#6C4EE3",
       "icon": "↩️"
+    },
+    {
+      "id": "arenda-kvartiry",
+      "name": "Аренда квартиры",
+      "type": "income",
+      "plan": 0,
+      "color": "#FF5C8A",
+      "icon": "🏠"
     }
   ],
   "transactions": [
@@ -247,5 +255,5 @@
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-02T22:59:28+03:00"
+  "updatedAt": "2026-09-02T23:20:35+03:00"
 }
