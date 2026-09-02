@@ -1,19 +1,251 @@
 {
   "currency": "₽",
   "userName": "Оля",
+  "accounts": [
+    "Личное",
+    "ЧистоДел",
+    "Школа",
+    "Клинап"
+  ],
   "monthlyPlan": 0,
   "monthlyIncomePlan": 0,
   "categories": [
-    { "id": "food",      "name": "Продукты",         "type": "expense", "plan": 0, "color": "#FF6B7A", "icon": "🛒" },
-    { "id": "cafe",      "name": "Кафе и рестораны", "type": "expense", "plan": 0, "color": "#F5B93C", "icon": "☕" },
-    { "id": "home",      "name": "Дом и коммуналка", "type": "expense", "plan": 0, "color": "#146B57", "icon": "🏠" },
-    { "id": "transport", "name": "Транспорт",        "type": "expense", "plan": 0, "color": "#9DC7F5", "icon": "🚕" },
-    { "id": "health",    "name": "Здоровье",         "type": "expense", "plan": 0, "color": "#8ADCB9", "icon": "💊" },
-    { "id": "fun",       "name": "Развлечения",      "type": "expense", "plan": 0, "color": "#6C4EE3", "icon": "🎬" },
-    { "id": "salary",    "name": "Зарплата",         "type": "income",  "plan": 0, "color": "#146B57", "icon": "💼" },
-    { "id": "freelance", "name": "Подработка",       "type": "income",  "plan": 0, "color": "#6C4EE3", "icon": "✨" }
+    {
+      "id": "reklama-i-marketing",
+      "name": "Реклама и маркетинг",
+      "type": "expense",
+      "plan": 0,
+      "color": "#FF8FA6",
+      "icon": "📣"
+    },
+    {
+      "id": "podryadchiki-i-frilans",
+      "name": "Подрядчики и фриланс",
+      "type": "expense",
+      "plan": 0,
+      "color": "#2FB79A",
+      "icon": "🛠"
+    },
+    {
+      "id": "zarplata-i-komanda",
+      "name": "Зарплата и команда",
+      "type": "expense",
+      "plan": 0,
+      "color": "#FFC53D",
+      "icon": "👥"
+    },
+    {
+      "id": "nalogi-i-vznosy",
+      "name": "Налоги и взносы",
+      "type": "expense",
+      "plan": 0,
+      "color": "#9B7BFF",
+      "icon": "🏛"
+    },
+    {
+      "id": "servisy-i-podpiski",
+      "name": "Сервисы и подписки",
+      "type": "expense",
+      "plan": 0,
+      "color": "#E8437A",
+      "icon": "💳"
+    },
+    {
+      "id": "arenda-i-ofis",
+      "name": "Аренда и офис",
+      "type": "expense",
+      "plan": 0,
+      "color": "#59D3B6",
+      "icon": "🏢"
+    },
+    {
+      "id": "oborudovanie-i-rashodniki",
+      "name": "Оборудование и расходники",
+      "type": "expense",
+      "plan": 0,
+      "color": "#7FB3E8",
+      "icon": "📦"
+    },
+    {
+      "id": "transport-i-poezdki",
+      "name": "Транспорт и поездки",
+      "type": "expense",
+      "plan": 0,
+      "color": "#C77DFF",
+      "icon": "🚕"
+    },
+    {
+      "id": "obuchenie-i-knigi",
+      "name": "Обучение и книги",
+      "type": "expense",
+      "plan": 0,
+      "color": "#FF6B7A",
+      "icon": "📚"
+    },
+    {
+      "id": "pitanie",
+      "name": "Питание",
+      "type": "expense",
+      "plan": 0,
+      "color": "#F5B93C",
+      "icon": "🛒"
+    },
+    {
+      "id": "semya-i-deti",
+      "name": "Семья и дети",
+      "type": "expense",
+      "plan": 0,
+      "color": "#146B57",
+      "icon": "👨‍👩‍👧"
+    },
+    {
+      "id": "deti-obuchenie-i-sekcii",
+      "name": "Дети обучение и секции",
+      "type": "expense",
+      "plan": 0,
+      "color": "#9DC7F5",
+      "icon": "🎒"
+    },
+    {
+      "id": "deti-karmannye-rashody",
+      "name": "Дети карманные расходы",
+      "type": "expense",
+      "plan": 0,
+      "color": "#8ADCB9",
+      "icon": "🪙"
+    },
+    {
+      "id": "zdorove",
+      "name": "Здоровье",
+      "type": "expense",
+      "plan": 0,
+      "color": "#6C4EE3",
+      "icon": "💊"
+    },
+    {
+      "id": "dom-i-byt",
+      "name": "Дом и быт",
+      "type": "expense",
+      "plan": 0,
+      "color": "#FF8FA6",
+      "icon": "🏠"
+    },
+    {
+      "id": "odezhda-i-krasota",
+      "name": "Одежда и красота",
+      "type": "expense",
+      "plan": 0,
+      "color": "#2FB79A",
+      "icon": "👗"
+    },
+    {
+      "id": "razvlecheniya",
+      "name": "Развлечения",
+      "type": "expense",
+      "plan": 0,
+      "color": "#FFC53D",
+      "icon": "🎬"
+    },
+    {
+      "id": "prochee",
+      "name": "Прочее",
+      "type": "expense",
+      "plan": 0,
+      "color": "#9B7BFF",
+      "icon": "✳️"
+    },
+    {
+      "id": "obuchenie-i-kursy",
+      "name": "Обучение и курсы",
+      "type": "income",
+      "plan": 0,
+      "color": "#FF6B7A",
+      "icon": "🎓"
+    },
+    {
+      "id": "konsalting",
+      "name": "Консалтинг",
+      "type": "income",
+      "plan": 0,
+      "color": "#F5B93C",
+      "icon": "💬"
+    },
+    {
+      "id": "chistodel",
+      "name": "ЧистоДел",
+      "type": "income",
+      "plan": 0,
+      "color": "#146B57",
+      "icon": "🧽"
+    },
+    {
+      "id": "klinap",
+      "name": "Клинап",
+      "type": "income",
+      "plan": 0,
+      "color": "#9DC7F5",
+      "icon": "🤝"
+    },
+    {
+      "id": "vystupleniya",
+      "name": "Выступления",
+      "type": "income",
+      "plan": 0,
+      "color": "#8ADCB9",
+      "icon": "🎤"
+    },
+    {
+      "id": "vozvraty-i-prochee",
+      "name": "Возвраты и прочее",
+      "type": "income",
+      "plan": 0,
+      "color": "#6C4EE3",
+      "icon": "↩️"
+    }
   ],
-  "transactions": [],
+  "transactions": [
+    {
+      "id": 1,
+      "date": "2026-09-02",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 2500.0,
+      "note": "репетитор сына",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 2,
+      "date": "2026-09-02",
+      "categoryId": "deti-karmannye-rashody",
+      "type": "expense",
+      "amount": 200.0,
+      "note": "карманные расходы",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 3,
+      "date": "2026-09-01",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 452.0,
+      "note": "Яндекс Такси",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 4,
+      "date": "2026-09-01",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 563.0,
+      "note": "Яндекс Такси",
+      "account": "Личное",
+      "source": "bot"
+    }
+  ],
   "mockReceipts": [],
-  "mockVoice": []
+  "mockVoice": [],
+  "updatedAt": "2026-09-02T21:23:25+03:00"
 }
