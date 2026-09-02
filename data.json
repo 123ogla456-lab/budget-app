@@ -279,9 +279,19 @@
       "note": "Почта России",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 7,
+      "date": "2026-09-01",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 407.0,
+      "note": "перевод Ирине Андреевне С.",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-02T23:22:11+03:00"
+  "updatedAt": "2026-09-02T23:22:25+03:00"
 }
