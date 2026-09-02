@@ -443,6 +443,22 @@ function boot(){
     render();
   };
 
+  // Выгрузка журнала на хостинг идёт раз в пару минут. Если план сохранён
+  // позже, чем собран data.json, серверная копия про него ещё не знает —
+  // тогда оставляем свои цифры, иначе только что введённый план обнуляется.
+  var keepFreshPlan=function(j){
+    var saved=restore();
+    if(!saved||!saved.planSavedAt||!Array.isArray(saved.categories)) return j;
+    if(j.updatedAt && Date.parse(saved.planSavedAt) <= Date.parse(j.updatedAt)) return j;
+    var mine={};
+    saved.categories.forEach(function(c){ mine[c.id]=c.plan||0; });
+    j.categories.forEach(function(c){ if(mine[c.id]!==undefined) c.plan=mine[c.id]; });
+    j.monthlyPlan=saved.monthlyPlan||0;
+    j.monthlyIncomePlan=saved.monthlyIncomePlan||0;
+    j.planSavedAt=saved.planSavedAt;
+    return j;
+  };
+
   // Журнал Финансиста — единственный источник правды. Локальная копия нужна
   // только чтобы приложение открывалось без сети; при живой загрузке она
   // перезаписывается, иначе старые записи навсегда заслонили бы настоящие.
@@ -450,7 +466,7 @@ function boot(){
     .then(function(r){ if(!r.ok) throw new Error('http'); return r.json(); })
     .then(function(j){
       if(!j||!Array.isArray(j.categories)||!Array.isArray(j.transactions)) throw new Error('bad');
-      start(j);
+      start(keepFreshPlan(j));
       persist();
     })
     .catch(function(){
@@ -904,6 +920,7 @@ function savePlan(){
   D.monthlyIncomePlan=planDraft.income;
   D.monthlyPlan=planDraft.expense;
   D.categories.forEach(function(c){ if(planDraft.cats[c.id]!==undefined) c.plan=Math.round(planDraft.cats[c.id]); });
+  D.planSavedAt=new Date().toISOString();
   persist();
   var plans={};
   D.categories.forEach(function(c){ if(c.plan) plans[c.id]=c.plan; });
