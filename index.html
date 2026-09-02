@@ -552,8 +552,14 @@ function render(){
     var f=s.mon.filter(function(t){return t.categoryId===c.id&&t.type===catMode;})
                .reduce(function(a,t){return a+t.amount;},0);
     return {c:c,fact:f,ratio:c.plan?f/c.plan:0};
-  }).sort(function(a,b){return b.fact-a.fact;});
-  if(catMode==='expense') list=list.slice(0,5);
+  }).sort(function(a,b){
+    // сначала то, где есть движение, потом остальные — по алфавиту.
+    // Раньше список расходов резался до пяти строк, и только что созданная
+    // категория с нулём всегда оказывалась за краем: пользователь её добавлял
+    // и не находил. Показываем все.
+    if(b.fact!==a.fact) return b.fact-a.fact;
+    return a.c.name.localeCompare(b.c.name,'ru');
+  });
 
   h+='<div class="card pop"><div class="row between" style="margin-bottom:16px;gap:10px">'
    + '<div class="mini">'
@@ -657,7 +663,7 @@ function drawForm(){
   if(form.badge) h+='<div class="banner">'+form.badge+'</div>';
   if(form.heard) h+='<div class="heard">«'+esc(form.heard)+'»</div>';
   h+='<div class="field"><label>Сумма</label>'
-   + '<input type="number" inputmode="decimal" id="amount" placeholder="0" value="'+(form.amount||'')+'" oninput="form.amount=this.value"></div>';
+   + '<input type="number" inputmode="decimal" id="amount" placeholder="0" value="'+(form.amount||'')+'" oninput="setAmount(this.value)"></div>';
   h+='<div class="field"><label>Тип операции</label><div class="seg">'
    + '<button class="'+(form.type==='expense'?'on exp':'')+'" onclick="setType(\'expense\')">Расход</button>'
    + '<button class="'+(form.type==='income'?'on':'')+'" onclick="setType(\'income\')">Доход</button>'
@@ -679,13 +685,26 @@ function drawForm(){
        }).join('')
      + '</div></div>';
   }
-  h+='<div class="field"><label>Дата</label><input type="date" value="'+form.date+'" onchange="form.date=this.value"></div>';
-  h+='<div class="field"><label>Заметка</label><input type="text" placeholder="необязательно" value="'+esc(form.note)+'" oninput="form.note=this.value"></div>';
+  h+='<div class="field"><label>Дата</label><input type="date" value="'+form.date+'" onchange="setDate(this.value)"></div>';
+  h+='<div class="field"><label>Заметка</label><input type="text" placeholder="необязательно" value="'+esc(form.note)+'" oninput="setNote(this.value)"></div>';
   h+='<button class="save" onclick="save()">Сохранить</button><button class="ghost" onclick="closeForm()">Отмена</button>';
   document.getElementById('sheet').innerHTML=h;
 }
+/* Поля формы правим только через функции.
+   Инлайновый обработчик на <input> выполняется в области видимости самого
+   элемента, а у input есть собственное свойство form (ссылка на родительский
+   <form>, здесь — null). Из-за этого «form.amount=this.value» прямо в атрибуте
+   писало не в нашу форму, а падало на null: сумма, дата и заметка не доходили
+   до save(), и он ругался «Укажи сумму» на заполненное поле. */
+function setAmount(v){ form.amount=v; clearFormBanner(); }
+function setDate(v){ form.date=v; }
+function setNote(v){ form.note=v; }
+function clearFormBanner(){
+  var b=document.querySelector('#sheet .banner');
+  if(b && b.dataset.err==='1') b.remove();
+}
 function setType(t){ if(form.type!==t){form.type=t;form.categoryId=null;} drawForm(); }
-function setCat(id){ form.categoryId=id; drawForm(); }
+function setCat(id){ form.categoryId=id; clearFormBanner(); drawForm(); }
 function toggleItem(i){
   form.items[i].on=!form.items[i].on;
   form.amount=form.items.filter(function(x){return x.on;}).reduce(function(a,x){return a+x.amount;},0);
@@ -713,6 +732,7 @@ function alertish(msg){
     b=document.createElement('div'); b.className='banner';
     document.getElementById('sheet').insertBefore(b,document.getElementById('sheet').children[1]);
   }
+  b.dataset.err='1';  // помечаем, чтобы убрать, как только исправят поле
   b.style.background='linear-gradient(135deg,#FF5C8A,#FF8A6B)'; b.style.color='#fff'; b.textContent='⚠️ '+msg;
 }
 
