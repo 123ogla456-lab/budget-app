@@ -243,19 +243,9 @@
       "note": "Яндекс Такси",
       "account": "Личное",
       "source": "bot"
-    },
-    {
-      "id": 5,
-      "date": "2026-09-02",
-      "categoryId": "prochee",
-      "type": "expense",
-      "amount": 99.0,
-      "note": "сквозная проверка выгрузки",
-      "account": "Личное",
-      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-02T22:58:47+03:00"
+  "updatedAt": "2026-09-02T22:59:28+03:00"
 }
