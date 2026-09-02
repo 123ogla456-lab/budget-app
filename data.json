@@ -1,0 +1,99 @@
+{
+  "currency": "₽",
+  "month": "2026-09",
+  "today": "2026-09-24",
+  "monthlyPlan": 93000,
+  "categories": [
+    { "id": "food",      "name": "Продукты",        "type": "expense", "plan": 35000, "color": "#FF6B7A", "icon": "🛒" },
+    { "id": "cafe",      "name": "Кафе и рестораны","type": "expense", "plan": 12000, "color": "#F5B93C", "icon": "☕" },
+    { "id": "home",      "name": "Дом и коммуналка","type": "expense", "plan": 22000, "color": "#146B57", "icon": "🏠" },
+    { "id": "transport", "name": "Транспорт",       "type": "expense", "plan": 8000,  "color": "#9DC7F5", "icon": "🚕" },
+    { "id": "health",    "name": "Здоровье",        "type": "expense", "plan": 9000,  "color": "#8ADCB9", "icon": "💊" },
+    { "id": "fun",       "name": "Развлечения",     "type": "expense", "plan": 7000,  "color": "#6C4EE3", "icon": "🎬" },
+    { "id": "salary",    "name": "Зарплата",        "type": "income",  "plan": 130000,"color": "#146B57", "icon": "💼" },
+    { "id": "freelance", "name": "Подработка",      "type": "income",  "plan": 20000, "color": "#6C4EE3", "icon": "✨" }
+  ],
+  "transactions": [
+    { "id": 1,  "date": "2026-09-02", "categoryId": "food",      "type": "expense", "amount": 2450,   "note": "Пятёрочка",        "source": "manual" },
+    { "id": 2,  "date": "2026-09-03", "categoryId": "cafe",      "type": "expense", "amount": 890,    "note": "Кофе с Аней",      "source": "voice" },
+    { "id": 3,  "date": "2026-09-04", "categoryId": "transport", "type": "expense", "amount": 620,    "note": "Такси домой",      "source": "manual" },
+    { "id": 4,  "date": "2026-09-05", "categoryId": "salary",    "type": "income",  "amount": 130000, "note": "Зарплата за август","source": "manual" },
+    { "id": 5,  "date": "2026-09-05", "categoryId": "food",      "type": "expense", "amount": 3180,   "note": "ВкусВилл",         "source": "receipt" },
+    { "id": 6,  "date": "2026-09-05", "categoryId": "fun",       "type": "expense", "amount": 1200,   "note": "Кино",             "source": "manual" },
+    { "id": 7,  "date": "2026-09-06", "categoryId": "home",      "type": "expense", "amount": 3300,   "note": "Бытовая химия",    "source": "receipt" },
+    { "id": 8,  "date": "2026-09-07", "categoryId": "health",    "type": "expense", "amount": 1240,   "note": "Аптека",           "source": "receipt" },
+    { "id": 9,  "date": "2026-09-08", "categoryId": "cafe",      "type": "expense", "amount": 4200,   "note": "Ужин в Probka",    "source": "receipt" },
+    { "id": 10, "date": "2026-09-09", "categoryId": "food",      "type": "expense", "amount": 5420,   "note": "Лента",            "source": "receipt" },
+    { "id": 11, "date": "2026-09-10", "categoryId": "home",      "type": "expense", "amount": 7400,   "note": "ЖКХ за август",    "source": "receipt" },
+    { "id": 12, "date": "2026-09-11", "categoryId": "transport", "type": "expense", "amount": 1500,   "note": "Тройка",           "source": "manual" },
+    { "id": 13, "date": "2026-09-12", "categoryId": "cafe",      "type": "expense", "amount": 520,    "note": "Кофейня у дома",   "source": "manual" },
+    { "id": 14, "date": "2026-09-13", "categoryId": "food",      "type": "expense", "amount": 1890,   "note": "Пятёрочка",        "source": "voice" },
+    { "id": 15, "date": "2026-09-13", "categoryId": "fun",       "type": "expense", "amount": 3100,   "note": "Концерт",          "source": "manual" },
+    { "id": 16, "date": "2026-09-14", "categoryId": "health",    "type": "expense", "amount": 760,    "note": "Витамины",         "source": "manual" },
+    { "id": 17, "date": "2026-09-15", "categoryId": "home",      "type": "expense", "amount": 900,    "note": "Интернет",         "source": "manual" },
+    { "id": 18, "date": "2026-09-16", "categoryId": "cafe",      "type": "expense", "amount": 1340,   "note": "Бизнес-ланч",      "source": "manual" },
+    { "id": 19, "date": "2026-09-17", "categoryId": "food",      "type": "expense", "amount": 4260,   "note": "ВкусВилл",         "source": "receipt" },
+    { "id": 20, "date": "2026-09-18", "categoryId": "transport", "type": "expense", "amount": 890,    "note": "Такси на встречу", "source": "voice" },
+    { "id": 21, "date": "2026-09-19", "categoryId": "freelance", "type": "income",  "amount": 18000,  "note": "Консультация",     "source": "manual" },
+    { "id": 22, "date": "2026-09-19", "categoryId": "cafe",      "type": "expense", "amount": 3800,   "note": "Ужин с подругами", "source": "receipt" },
+    { "id": 23, "date": "2026-09-20", "categoryId": "food",      "type": "expense", "amount": 7300,   "note": "Ашан, закупка",    "source": "receipt" },
+    { "id": 24, "date": "2026-09-21", "categoryId": "transport", "type": "expense", "amount": 810,    "note": "Каршеринг",        "source": "manual" },
+    { "id": 25, "date": "2026-09-22", "categoryId": "cafe",      "type": "expense", "amount": 450,    "note": "Кофе",             "source": "voice" },
+    { "id": 26, "date": "2026-09-23", "categoryId": "food",      "type": "expense", "amount": 2140,   "note": "Пятёрочка",        "source": "voice" },
+    { "id": 27, "date": "2026-09-24", "categoryId": "food",      "type": "expense", "amount": 4560,   "note": "Магнит",           "source": "manual" },
+    { "id": 28, "date": "2026-09-24", "categoryId": "cafe",      "type": "expense", "amount": 2250,   "note": "Доставка суши",    "source": "manual" }
+  ],
+  "mockReceipts": [
+    {
+      "merchant": "ВкусВилл",
+      "date": "2026-09-24",
+      "categoryId": "food",
+      "type": "expense",
+      "total": 1842,
+      "items": [
+        { "name": "Молоко 3.2%",        "amount": 89 },
+        { "name": "Хлеб зерновой",      "amount": 74 },
+        { "name": "Куриное филе, 900 г","amount": 612 },
+        { "name": "Йогурт, 4 шт",       "amount": 267 },
+        { "name": "Сыр Гауда, 250 г",   "amount": 800 }
+      ]
+    },
+    {
+      "merchant": "Аптека Горздрав",
+      "date": "2026-09-24",
+      "categoryId": "health",
+      "type": "expense",
+      "total": 1370,
+      "items": [
+        { "name": "Витамин D3",     "amount": 640 },
+        { "name": "Магний B6",      "amount": 480 },
+        { "name": "Пластырь",       "amount": 250 }
+      ]
+    },
+    {
+      "merchant": "Кофейня Skuratov",
+      "date": "2026-09-24",
+      "categoryId": "cafe",
+      "type": "expense",
+      "total": 780,
+      "items": [
+        { "name": "Капучино 300 мл", "amount": 390 },
+        { "name": "Круассан",        "amount": 390 }
+      ]
+    }
+  ],
+  "mockVoice": [
+    {
+      "text": "потратила тысячу двести на продукты в Пятёрочке",
+      "parsed": { "categoryId": "food", "type": "expense", "amount": 1200, "date": "today", "note": "Пятёрочка" }
+    },
+    {
+      "text": "пришла оплата за консультацию двадцать пять тысяч",
+      "parsed": { "categoryId": "freelance", "type": "income", "amount": 25000, "date": "today", "note": "Консультация" }
+    },
+    {
+      "text": "такси до аэропорта одна тысяча девятьсот",
+      "parsed": { "categoryId": "transport", "type": "expense", "amount": 1900, "date": "today", "note": "Такси в аэропорт" }
+    }
+  ]
+}
