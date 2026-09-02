@@ -289,9 +289,49 @@
       "note": "перевод Ирине Андреевне С.",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 8,
+      "date": "2026-09-01",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 960.0,
+      "note": "ВМТ Сова",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 9,
+      "date": "2026-09-01",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 4709.15,
+      "note": "Горздрав",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 10,
+      "date": "2026-09-01",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 5500.0,
+      "note": "ВМТ Сова",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 11,
+      "date": "2026-09-01",
+      "categoryId": "obuchenie-i-knigi",
+      "type": "expense",
+      "amount": 18994.0,
+      "note": "Яндекс Сплит, обучение",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-02T23:22:25+03:00"
+  "updatedAt": "2026-09-02T23:23:25+03:00"
 }
