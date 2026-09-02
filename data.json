@@ -251,9 +251,19 @@
       "note": "Яндекс Такси",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 5,
+      "date": "2026-09-01",
+      "categoryId": "dom-i-byt",
+      "type": "expense",
+      "amount": 7189.0,
+      "note": "Wildberries, для дома",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-02T23:20:35+03:00"
+  "updatedAt": "2026-09-02T23:21:56+03:00"
 }
