@@ -163,20 +163,12 @@
       "icon": "💼"
     },
     {
-      "id": "obuchenie-i-kursy",
-      "name": "Обучение и курсы",
+      "id": "shkola-klininga",
+      "name": "Школа клининга",
       "type": "income",
       "plan": 0,
       "color": "#FF6B7A",
       "icon": "🎓"
-    },
-    {
-      "id": "konsalting",
-      "name": "Консалтинг",
-      "type": "income",
-      "plan": 0,
-      "color": "#F5B93C",
-      "icon": "💬"
     },
     {
       "id": "chistodel",
@@ -193,14 +185,6 @@
       "plan": 0,
       "color": "#9DC7F5",
       "icon": "🤝"
-    },
-    {
-      "id": "vystupleniya",
-      "name": "Выступления",
-      "type": "income",
-      "plan": 0,
-      "color": "#8ADCB9",
-      "icon": "🎤"
     },
     {
       "id": "vozvraty-i-prochee",
@@ -333,5 +317,5 @@
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-02T23:23:25+03:00"
+  "updatedAt": "2026-09-02T23:28:26+03:00"
 }
