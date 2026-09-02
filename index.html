@@ -443,17 +443,19 @@ function boot(){
     render();
   };
 
-  // то, что уже введено на этом устройстве, важнее заготовки с сервера
-  var saved=restore();
-  if(saved){ start(saved); return; }
-
+  // Журнал Финансиста — единственный источник правды. Локальная копия нужна
+  // только чтобы приложение открывалось без сети; при живой загрузке она
+  // перезаписывается, иначе старые записи навсегда заслонили бы настоящие.
   fetch('data.json?v='+Date.now(),{cache:'no-store'})
     .then(function(r){ if(!r.ok) throw new Error('http'); return r.json(); })
     .then(function(j){
       if(!j||!Array.isArray(j.categories)||!Array.isArray(j.transactions)) throw new Error('bad');
       start(j);
+      persist();
     })
     .catch(function(){
+      var saved=restore();
+      if(saved){ start(saved); toast('Показываю сохранённое — связи нет 📡'); return; }
       document.getElementById('skeleton').style.display='none';
       document.getElementById('err').style.display='flex';
     });
@@ -725,6 +727,32 @@ function save(){
   haptic('success');
   rain(isInc?'income':'expense');
   toast(isInc ? 'Доход +'+money(a)+' 🎉' : 'Записала '+money(a)+' 🌸');
+
+  // Отдаём операцию Финансисту. Он владеет журналом; то, что видно здесь до
+  // его ответа, — предварительная запись, она подтвердится при следующей выгрузке.
+  toBot({kind:'transaction', date:form.date, categoryId:form.categoryId,
+         type:form.type, amount:a, note:form.note||'', account:form.account||'Личное'});
+}
+
+/* ---------- отправка Финансисту ----------
+   Страница статическая и лежит на публичном хостинге, поэтому писать в журнал
+   напрямую ей нельзя: любой ключ в её коде виден всем. Пишет только бот.
+   Telegram.WebApp.sendData передаёт данные ему — но лишь если мини-апп открыт
+   кнопкой обычной клавиатуры, а не кнопкой меню. */
+function tg(){
+  try{ return window.Telegram && Telegram.WebApp ? Telegram.WebApp : null; }
+  catch(e){ return null; }
+}
+function toBot(payload){
+  var t=tg();
+  if(t && typeof t.sendData==='function'){
+    try{
+      t.sendData(JSON.stringify(payload));
+      return true;
+    }catch(e){}
+  }
+  toast('Записала только здесь — Финансисту не ушло 💤');
+  return false;
 }
 function alertish(msg){
   var b=document.querySelector('#sheet .banner');
@@ -780,6 +808,8 @@ function saveCat(){
   var id='c'+Date.now();
   D.categories.push({id:id,name:name,type:newCat.type,plan:parseFloat(newCat.plan)||0,color:newCat.color,icon:newCat.icon});
   persist();
+  toBot({kind:'category', name:name, type:newCat.type,
+         icon:newCat.icon, color:newCat.color, plan:parseFloat(newCat.plan)||0});
   closeCatForm();
   if(newCat.returnToForm){ form.type=newCat.type; form.categoryId=id; drawForm(); }
   else { catMode=newCat.type; }
@@ -875,6 +905,9 @@ function savePlan(){
   D.monthlyPlan=planDraft.expense;
   D.categories.forEach(function(c){ if(planDraft.cats[c.id]!==undefined) c.plan=Math.round(planDraft.cats[c.id]); });
   persist();
+  var plans={};
+  D.categories.forEach(function(c){ if(c.plan) plans[c.id]=c.plan; });
+  toBot({kind:'plan', plans:plans});
   closePlan();
   render();
   toast('План обновлён 🎯');
