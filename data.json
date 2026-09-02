@@ -8,7 +8,7 @@
     "Клинап"
   ],
   "monthlyPlan": 250000.0,
-  "monthlyIncomePlan": 65000,
+  "monthlyIncomePlan": 300000.0,
   "categories": [
     {
       "id": "reklama-i-marketing",
@@ -166,7 +166,7 @@
       "id": "shkola-klininga",
       "name": "Школа клининга",
       "type": "income",
-      "plan": 0,
+      "plan": 235000.0,
       "color": "#FF6B7A",
       "icon": "🎓"
     },
@@ -174,7 +174,7 @@
       "id": "chistodel",
       "name": "ЧистоДел",
       "type": "income",
-      "plan": 20000,
+      "plan": 20000.0,
       "color": "#146B57",
       "icon": "🧽"
     },
@@ -198,7 +198,7 @@
       "id": "arenda-kvartiry",
       "name": "Аренда квартиры",
       "type": "income",
-      "plan": 45000,
+      "plan": 45000.0,
       "color": "#FF5C8A",
       "icon": "🏠"
     }
@@ -317,5 +317,5 @@
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-02T23:33:08+03:00"
+  "updatedAt": "2026-09-02T23:34:18+03:00"
 }
