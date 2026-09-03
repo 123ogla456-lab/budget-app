@@ -373,9 +373,39 @@
       "note": "лекарство кошке",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 18,
+      "date": "2026-09-03",
+      "categoryId": "dom-i-byt",
+      "type": "expense",
+      "amount": 1322.0,
+      "note": "для дома",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 19,
+      "date": "2026-09-03",
+      "categoryId": "semya-i-deti",
+      "type": "expense",
+      "amount": 134.0,
+      "note": "дети",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 20,
+      "date": "2026-09-03",
+      "categoryId": "semya-i-deti",
+      "type": "expense",
+      "amount": 226.0,
+      "note": "дети",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-03T19:17:21+03:00"
+  "updatedAt": "2026-09-03T20:34:47+03:00"
 }
