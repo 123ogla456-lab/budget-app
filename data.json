@@ -313,9 +313,19 @@
       "note": "Яндекс Сплит, обучение",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 12,
+      "date": "2026-09-03",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 1270.0,
+      "note": "продукты",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-02T23:34:18+03:00"
+  "updatedAt": "2026-09-03T10:49:55+03:00"
 }
