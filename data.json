@@ -363,9 +363,19 @@
       "note": "продукты",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 17,
+      "date": "2026-09-03",
+      "categoryId": "prochee",
+      "type": "expense",
+      "amount": 732.0,
+      "note": "лекарство кошке",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-03T19:16:36+03:00"
+  "updatedAt": "2026-09-03T19:17:21+03:00"
 }
