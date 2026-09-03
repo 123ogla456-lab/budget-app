@@ -333,9 +333,39 @@
       "note": "продукты",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 14,
+      "date": "2026-09-03",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 1215.0,
+      "note": "лекарства",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 15,
+      "date": "2026-09-03",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 513.0,
+      "note": "продукты",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 16,
+      "date": "2026-09-03",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 1830.0,
+      "note": "продукты",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-03T19:16:28+03:00"
+  "updatedAt": "2026-09-03T19:16:36+03:00"
 }
