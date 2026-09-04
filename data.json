@@ -423,9 +423,19 @@
       "note": "",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 23,
+      "date": "2026-09-04",
+      "categoryId": "biznes",
+      "type": "expense",
+      "amount": 5900.0,
+      "note": "ГетКурс",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-04T12:35:28+03:00"
+  "updatedAt": "2026-09-04T12:48:32+03:00"
 }
