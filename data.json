@@ -433,9 +433,19 @@
       "note": "ГетКурс",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 24,
+      "date": "2026-09-04",
+      "categoryId": "deti-karmannye-rashody",
+      "type": "expense",
+      "amount": 385.0,
+      "note": "карманные расходы",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-04T12:48:32+03:00"
+  "updatedAt": "2026-09-04T16:21:15+03:00"
 }
