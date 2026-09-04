@@ -413,9 +413,19 @@
       "note": "подарок маме",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 22,
+      "date": "2026-09-04",
+      "categoryId": "shkola-klininga",
+      "type": "income",
+      "amount": 4815.35,
+      "note": "",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-03T20:34:53+03:00"
+  "updatedAt": "2026-09-04T12:35:28+03:00"
 }
