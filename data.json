@@ -201,6 +201,14 @@
       "plan": 45000.0,
       "color": "#FF5C8A",
       "icon": "🏠"
+    },
+    {
+      "id": "ot-muzha",
+      "name": "От мужа",
+      "type": "income",
+      "plan": 0,
+      "color": "#FF8A6B",
+      "icon": "🐾"
     }
   ],
   "transactions": [
@@ -457,5 +465,5 @@
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-04T20:18:08+03:00"
+  "updatedAt": "2026-09-05T10:28:21+03:00"
 }
