@@ -491,9 +491,49 @@
       "note": "дети",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 29,
+      "date": "2026-09-06",
+      "categoryId": "semya-i-deti",
+      "type": "expense",
+      "amount": 2577.0,
+      "note": "подарки семье",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 30,
+      "date": "2026-09-06",
+      "categoryId": "semya-i-deti",
+      "type": "expense",
+      "amount": 2254.0,
+      "note": "подарки семье",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 31,
+      "date": "2026-09-06",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 1997.0,
+      "note": "продукты",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 32,
+      "date": "2026-09-06",
+      "categoryId": "semya-i-deti",
+      "type": "expense",
+      "amount": 3950.0,
+      "note": "цветы маме на др",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-06T16:11:49+03:00"
+  "updatedAt": "2026-09-06T16:11:58+03:00"
 }
