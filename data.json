@@ -481,9 +481,19 @@
       "note": "сыну на карманные",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 28,
+      "date": "2026-09-06",
+      "categoryId": "semya-i-deti",
+      "type": "expense",
+      "amount": 698.0,
+      "note": "дети",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-05T15:21:03+03:00"
+  "updatedAt": "2026-09-06T16:11:49+03:00"
 }
