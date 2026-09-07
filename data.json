@@ -551,9 +551,19 @@
       "note": "дети",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 35,
+      "date": "2026-09-07",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 5000.0,
+      "note": "психолог",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-07T01:38:18+03:00"
+  "updatedAt": "2026-09-07T11:45:20+03:00"
 }
