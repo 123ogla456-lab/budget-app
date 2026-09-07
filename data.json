@@ -561,9 +561,19 @@
       "note": "психолог",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 36,
+      "date": "2026-09-07",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 996.0,
+      "note": "еда",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-07T11:45:20+03:00"
+  "updatedAt": "2026-09-07T11:55:44+03:00"
 }
