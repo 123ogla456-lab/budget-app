@@ -591,9 +591,29 @@
       "note": "репетитор сына",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 39,
+      "date": "2026-09-08",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 1659.0,
+      "note": "Самокат",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 40,
+      "date": "2026-09-08",
+      "categoryId": "shkola-klininga",
+      "type": "income",
+      "amount": 53300.0,
+      "note": "курс «Контрактный клининг»",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-07T21:41:13+03:00"
+  "updatedAt": "2026-09-08T14:26:19+03:00"
 }
