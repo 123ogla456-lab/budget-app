@@ -631,9 +631,19 @@
       "note": "школа клининга",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 43,
+      "date": "2026-09-09",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 2500.0,
+      "note": "репетитор сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-09T15:41:49+03:00"
+  "updatedAt": "2026-09-09T18:20:01+03:00"
 }
