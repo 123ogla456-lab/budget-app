@@ -631,9 +631,29 @@
       "note": "школа клининга",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 43,
+      "date": "2026-09-08",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 14317.0,
+      "note": "Cloud",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 44,
+      "date": "2026-09-09",
+      "categoryId": "shkola-klininga",
+      "type": "income",
+      "amount": 115800.0,
+      "note": "",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-09T15:41:00+03:00"
+  "updatedAt": "2026-09-09T15:41:25+03:00"
 }
