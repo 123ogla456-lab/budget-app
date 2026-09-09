@@ -611,9 +611,29 @@
       "note": "курс «Контрактный клининг»",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 41,
+      "date": "2026-09-08",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 14317.0,
+      "note": "подписка Cloud",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 42,
+      "date": "2026-09-08",
+      "categoryId": "shkola-klininga",
+      "type": "income",
+      "amount": 115800.0,
+      "note": "школа клининга",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-08T14:26:19+03:00"
+  "updatedAt": "2026-09-09T15:41:00+03:00"
 }
