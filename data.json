@@ -761,9 +761,39 @@
       "note": "",
       "account": "Клинап",
       "source": "bot"
+    },
+    {
+      "id": 56,
+      "date": "2026-09-14",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 433.0,
+      "note": "такси",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 57,
+      "date": "2026-09-14",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 315.0,
+      "note": "такси",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 58,
+      "date": "2026-09-14",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 1590.0,
+      "note": "бот, автоматизация воронки",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-14T16:22:01+03:00"
+  "updatedAt": "2026-09-14T16:24:49+03:00"
 }
