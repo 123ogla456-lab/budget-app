@@ -641,9 +641,119 @@
       "note": "репетитор сыну",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 44,
+      "date": "2026-09-09",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 3000.0,
+      "note": "репетитор сыну",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 45,
+      "date": "2026-09-09",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 1000.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 46,
+      "date": "2026-09-10",
+      "categoryId": "dom-i-byt",
+      "type": "expense",
+      "amount": 1351.0,
+      "note": "таблетки для посудомойки",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 47,
+      "date": "2026-09-10",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 844.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 48,
+      "date": "2026-09-10",
+      "categoryId": "arenda-kvartiry",
+      "type": "income",
+      "amount": 63354.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 49,
+      "date": "2026-09-11",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 1000.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 50,
+      "date": "2026-09-12",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 5500.0,
+      "note": "репетитор сына",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 51,
+      "date": "2026-09-12",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 1006.0,
+      "note": "самокат",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 52,
+      "date": "2026-09-12",
+      "categoryId": "dom-i-byt",
+      "type": "expense",
+      "amount": 2108.0,
+      "note": "товары для дома",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 53,
+      "date": "2026-09-14",
+      "categoryId": "obuchenie-i-knigi",
+      "type": "expense",
+      "amount": 3000.0,
+      "note": "обучение моё",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 54,
+      "date": "2026-09-14",
+      "categoryId": "ot-muzha",
+      "type": "income",
+      "amount": 50000.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-09T18:20:01+03:00"
+  "updatedAt": "2026-09-14T15:23:43+03:00"
 }
