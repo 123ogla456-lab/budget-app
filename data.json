@@ -751,9 +751,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 55,
+      "date": "2026-09-10",
+      "categoryId": "klinap",
+      "type": "income",
+      "amount": 6332.26,
+      "note": "",
+      "account": "Клинап",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-14T15:23:43+03:00"
+  "updatedAt": "2026-09-14T16:22:01+03:00"
 }
