@@ -801,9 +801,29 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 60,
+      "date": "2026-09-15",
+      "categoryId": "chistodel",
+      "type": "income",
+      "amount": 11000.0,
+      "note": "зарплата",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 61,
+      "date": "2026-09-15",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 580.0,
+      "note": "кофе",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-15T09:56:37+03:00"
+  "updatedAt": "2026-09-15T10:41:06+03:00"
 }
