@@ -791,9 +791,19 @@
       "note": "бот, автоматизация воронки",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 59,
+      "date": "2026-09-15",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 18997.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-14T16:24:49+03:00"
+  "updatedAt": "2026-09-15T09:56:37+03:00"
 }
