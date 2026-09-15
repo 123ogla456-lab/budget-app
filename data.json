@@ -831,9 +831,19 @@
       "note": "проценты на вклад",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 63,
+      "date": "2026-09-15",
+      "categoryId": "shkola-klininga",
+      "type": "income",
+      "amount": 9640.0,
+      "note": "",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-15T10:44:48+03:00"
+  "updatedAt": "2026-09-15T16:03:08+03:00"
 }
