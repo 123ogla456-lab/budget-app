@@ -841,9 +841,19 @@
       "note": "",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 64,
+      "date": "2026-09-15",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 9861.0,
+      "note": "косметика",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-15T16:03:08+03:00"
+  "updatedAt": "2026-09-15T22:59:20+03:00"
 }
