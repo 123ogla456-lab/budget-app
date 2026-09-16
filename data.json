@@ -911,9 +911,29 @@
       "note": "Calzedonia",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 71,
+      "date": "2026-09-16",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 4709.15,
+      "note": "Горздрав",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 72,
+      "date": "2026-09-16",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 910.0,
+      "note": "VMT Sova",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-16T19:34:19+03:00"
+  "updatedAt": "2026-09-16T19:35:16+03:00"
 }
