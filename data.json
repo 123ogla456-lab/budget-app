@@ -851,9 +851,19 @@
       "note": "косметика",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 65,
+      "date": "2026-09-16",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 58.94,
+      "note": "вода",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-15T22:59:20+03:00"
+  "updatedAt": "2026-09-16T08:22:11+03:00"
 }
