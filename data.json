@@ -881,9 +881,39 @@
       "note": "капремонт, коммунальные платежи",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 68,
+      "date": "2026-09-16",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 2500.0,
+      "note": "репетитор сыну",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 69,
+      "date": "2026-09-16",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 5299.0,
+      "note": "Love Republic Galere",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 70,
+      "date": "2026-09-16",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 1796.0,
+      "note": "Calzedonia",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-16T18:00:33+03:00"
+  "updatedAt": "2026-09-16T19:34:19+03:00"
 }
