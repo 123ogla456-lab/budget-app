@@ -931,9 +931,49 @@
       "note": "VMT Sova",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 73,
+      "date": "2026-09-16",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 427.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 74,
+      "date": "2026-09-16",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 577.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 75,
+      "date": "2026-09-16",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 654.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 76,
+      "date": "2026-09-16",
+      "categoryId": "deti-karmannye-rashody",
+      "type": "expense",
+      "amount": 400.0,
+      "note": "сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-16T19:35:16+03:00"
+  "updatedAt": "2026-09-16T19:35:47+03:00"
 }
