@@ -981,9 +981,29 @@
       "note": "занятие сына",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 78,
+      "date": "2026-09-17",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 560.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 79,
+      "date": "2026-09-17",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 3000.0,
+      "note": "репетитор сцены",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-16T22:00:59+03:00"
+  "updatedAt": "2026-09-17T15:05:14+03:00"
 }
