@@ -1001,9 +1001,19 @@
       "note": "репетитор сцены",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 80,
+      "date": "2026-09-17",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 3000.0,
+      "note": "маникюр",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-17T15:05:14+03:00"
+  "updatedAt": "2026-09-17T17:19:29+03:00"
 }
