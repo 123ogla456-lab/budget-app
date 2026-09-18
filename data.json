@@ -1051,9 +1051,29 @@
       "note": "продукты",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 85,
+      "date": "2026-09-18",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 3593.0,
+      "note": "ресторан",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 86,
+      "date": "2026-09-18",
+      "categoryId": "shkola-klininga",
+      "type": "income",
+      "amount": 1930.0,
+      "note": "продление курса",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-18T09:11:56+03:00"
+  "updatedAt": "2026-09-18T15:15:46+03:00"
 }
