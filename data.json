@@ -1071,9 +1071,39 @@
       "note": "продление курса",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 87,
+      "date": "2026-09-19",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 808.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 88,
+      "date": "2026-09-19",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 1105.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 89,
+      "date": "2026-09-19",
+      "categoryId": "ot-muzha",
+      "type": "income",
+      "amount": 50000.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-18T15:15:46+03:00"
+  "updatedAt": "2026-09-19T14:20:03+03:00"
 }
