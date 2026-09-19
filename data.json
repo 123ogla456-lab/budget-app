@@ -1101,9 +1101,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 90,
+      "date": "2026-09-19",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 2500.0,
+      "note": "репетитор сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-19T14:20:03+03:00"
+  "updatedAt": "2026-09-19T19:43:34+03:00"
 }
