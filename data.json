@@ -1161,9 +1161,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 96,
+      "date": "2026-09-20",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 393.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-20T16:46:02+03:00"
+  "updatedAt": "2026-09-20T16:46:24+03:00"
 }
