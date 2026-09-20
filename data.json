@@ -1111,9 +1111,39 @@
       "note": "репетитор сыну",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 91,
+      "date": "2026-09-19",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 729.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 92,
+      "date": "2026-09-19",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 984.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 93,
+      "date": "2026-09-20",
+      "categoryId": "prochee",
+      "type": "expense",
+      "amount": 1000.0,
+      "note": "благотворительность",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-19T19:43:34+03:00"
+  "updatedAt": "2026-09-20T15:16:21+03:00"
 }
