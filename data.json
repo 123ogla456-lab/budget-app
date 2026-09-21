@@ -1181,9 +1181,19 @@
       "note": "почта",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 98,
+      "date": "2026-09-21",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 4750.0,
+      "note": "подолог сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-21T16:04:32+03:00"
+  "updatedAt": "2026-09-21T16:07:58+03:00"
 }
