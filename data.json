@@ -1201,9 +1201,19 @@
       "note": "окрашивание волос",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 100,
+      "date": "2026-09-21",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 1696.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-21T18:54:34+03:00"
+  "updatedAt": "2026-09-21T21:15:18+03:00"
 }
