@@ -1171,9 +1171,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 97,
+      "date": "2026-09-21",
+      "categoryId": "biznes",
+      "type": "expense",
+      "amount": 207.4,
+      "note": "почта",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-20T16:46:24+03:00"
+  "updatedAt": "2026-09-21T16:04:32+03:00"
 }
