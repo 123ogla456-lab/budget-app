@@ -1191,9 +1191,19 @@
       "note": "подолог сыну",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 99,
+      "date": "2026-09-21",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 5500.0,
+      "note": "окрашивание волос",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-21T16:07:58+03:00"
+  "updatedAt": "2026-09-21T18:54:34+03:00"
 }
