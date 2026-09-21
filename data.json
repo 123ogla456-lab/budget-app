@@ -1211,9 +1211,29 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 101,
+      "date": "2026-09-21",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 1880.0,
+      "note": "витамины",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 102,
+      "date": "2026-09-21",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 1351.0,
+      "note": "витамины",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-21T21:15:18+03:00"
+  "updatedAt": "2026-09-21T21:15:52+03:00"
 }
