@@ -1351,9 +1351,19 @@
       "note": "GPT",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 115,
+      "date": "2026-09-24",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 2000.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-24T18:57:02+03:00"
+  "updatedAt": "2026-09-24T21:40:52+03:00"
 }
