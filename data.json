@@ -1311,9 +1311,19 @@
       "note": "продление курса",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 111,
+      "date": "2026-09-24",
+      "categoryId": "semya-i-deti",
+      "type": "expense",
+      "amount": 741.0,
+      "note": "вещь сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-24T13:01:35+03:00"
+  "updatedAt": "2026-09-24T14:28:48+03:00"
 }
