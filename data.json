@@ -1371,9 +1371,19 @@
       "note": "консультации",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 117,
+      "date": "2026-09-25",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 1997.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-25T13:51:48+03:00"
+  "updatedAt": "2026-09-25T14:57:18+03:00"
 }
