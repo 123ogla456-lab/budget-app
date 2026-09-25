@@ -1391,9 +1391,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 119,
+      "date": "2026-09-25",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 2000.0,
+      "note": "сын",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-25T19:53:12+03:00"
+  "updatedAt": "2026-09-25T19:53:16+03:00"
 }
