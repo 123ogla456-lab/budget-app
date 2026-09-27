@@ -1491,9 +1491,49 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 129,
+      "date": "2026-09-27",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 2746.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 130,
+      "date": "2026-09-27",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 377.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 131,
+      "date": "2026-09-27",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 9499.0,
+      "note": "одежда сыну",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 132,
+      "date": "2026-09-27",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 5400.0,
+      "note": "одежда сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-27T14:49:19+03:00"
+  "updatedAt": "2026-09-27T14:49:24+03:00"
 }
