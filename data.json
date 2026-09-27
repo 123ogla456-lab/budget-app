@@ -1531,9 +1531,19 @@
       "note": "одежда сыну",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 133,
+      "date": "2026-09-27",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 608.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-27T14:49:24+03:00"
+  "updatedAt": "2026-09-27T15:37:39+03:00"
 }
