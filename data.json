@@ -1571,9 +1571,19 @@
       "note": "продукты",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 137,
+      "date": "2026-09-29",
+      "categoryId": "shkola-klininga",
+      "type": "income",
+      "amount": 125450.0,
+      "note": "2 курса «Контрактный клининг»",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-29T11:51:41+03:00"
+  "updatedAt": "2026-09-29T14:29:16+03:00"
 }
