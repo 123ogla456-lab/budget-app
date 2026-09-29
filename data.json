@@ -1591,9 +1591,19 @@
       "note": "коммуналка",
       "account": "ЧистоДел",
       "source": "bot"
+    },
+    {
+      "id": 139,
+      "date": "2026-09-29",
+      "categoryId": "dom-i-byt",
+      "type": "expense",
+      "amount": 10000.0,
+      "note": "капремонт помещения",
+      "account": "ЧистоДел",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-29T14:34:53+03:00"
+  "updatedAt": "2026-09-29T15:31:54+03:00"
 }
