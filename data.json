@@ -1601,9 +1601,19 @@
       "note": "капремонт помещения",
       "account": "ЧистоДел",
       "source": "bot"
+    },
+    {
+      "id": 140,
+      "date": "2026-09-29",
+      "categoryId": "deti-karmannye-rashody",
+      "type": "expense",
+      "amount": 1000.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-29T15:31:54+03:00"
+  "updatedAt": "2026-09-29T19:10:08+03:00"
 }
