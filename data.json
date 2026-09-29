@@ -1581,9 +1581,19 @@
       "note": "2 курса «Контрактный клининг»",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 138,
+      "date": "2026-09-29",
+      "categoryId": "dom-i-byt",
+      "type": "expense",
+      "amount": 5675.51,
+      "note": "коммуналка",
+      "account": "ЧистоДел",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-29T14:29:16+03:00"
+  "updatedAt": "2026-09-29T14:34:53+03:00"
 }
