@@ -1709,9 +1709,19 @@
       "note": "курс управление КК",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 150,
+      "date": "2026-09-30",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 2100.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-30T21:06:02+03:00"
+  "updatedAt": "2026-09-30T21:28:01+03:00"
 }
