@@ -1699,9 +1699,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 149,
+      "date": "2026-09-30",
+      "categoryId": "shkola-klininga",
+      "type": "income",
+      "amount": 28854.0,
+      "note": "курс управление КК",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-30T21:00:01+03:00"
+  "updatedAt": "2026-09-30T21:06:02+03:00"
 }
