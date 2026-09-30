@@ -209,6 +209,14 @@
       "plan": 0,
       "color": "#FF8A6B",
       "icon": "🐾"
+    },
+    {
+      "id": "zarplata",
+      "name": "Зарплата",
+      "type": "income",
+      "plan": 0,
+      "color": "#3DBE7D",
+      "icon": "💰"
     }
   ],
   "transactions": [
@@ -1621,9 +1629,49 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 142,
+      "date": "2026-09-30",
+      "categoryId": "zarplata",
+      "type": "income",
+      "amount": 15000.0,
+      "note": "",
+      "account": "ЧистоДел",
+      "source": "bot"
+    },
+    {
+      "id": 143,
+      "date": "2026-09-30",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 5146.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 144,
+      "date": "2026-09-30",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 535.0,
+      "note": "",
+      "account": "Школа",
+      "source": "bot"
+    },
+    {
+      "id": 145,
+      "date": "2026-09-30",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 427.0,
+      "note": "",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-30T10:40:01+03:00"
+  "updatedAt": "2026-09-30T16:44:01+03:00"
 }
