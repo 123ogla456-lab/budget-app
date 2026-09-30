@@ -127,7 +127,7 @@ body{
 .addcat{border:0;background:linear-gradient(135deg,var(--pink),#FF8FA6);color:#fff;width:36px;height:36px;
   border-radius:50%;font-size:20px;font-weight:700;cursor:pointer;line-height:1;flex:none;
   box-shadow:0 8px 16px rgba(255,92,138,.32)}
-.cat{display:flex;align-items:center;gap:12px;margin-bottom:15px}
+.cat{display:flex;align-items:center;gap:12px;margin-bottom:15px;cursor:pointer}
 .cat:last-child{margin-bottom:0}
 .bub{width:40px;height:40px;border-radius:14px;display:flex;align-items:center;justify-content:center;
   font-size:18px;flex:none;transform:rotate(-4deg)}
@@ -337,6 +337,7 @@ button:focus-visible{outline:3px solid var(--lav);outline-offset:3px}
 <div class="overlay" id="modal"><div class="sheet" id="sheet"></div></div>
 <div class="overlay" id="catModal"><div class="sheet" id="catSheet"></div></div>
 <div class="overlay" id="planModal"><div class="sheet" id="planSheet"></div></div>
+<div class="overlay" id="catDetailModal"><div class="sheet" id="catDetailSheet"></div></div>
 
 <div id="fx"></div>
 <div id="toast"></div>
@@ -641,7 +642,7 @@ function render(){
     }else if(x.ratio>=1){
       badge='<span class="pill" style="background:#CFF3E8;color:#14705C">план выполнен</span>';
     }
-    h+='<div class="cat">'
+    h+='<div class="cat" onclick="openCatDetail(\''+x.c.id+'\')">'
      + '<div class="bub" style="background:'+x.c.color+'1F">'+x.c.icon+'</div>'
      + '<div class="body"><div class="top"><div class="nm">'+esc(x.c.name)+'</div><div class="am">'+money(x.fact)+'</div></div>'
      + '<div class="track"><i style="width:'+Math.min(100,pct)+'%;background:'+fill+'"></i></div>'
@@ -999,6 +1000,32 @@ function savePlan(){
   toast('План обновлён 🎯');
 }
 
+/* ---------- разворот категории ---------- */
+function openCatDetail(id){
+  var c=cat(id);
+  var list=D.transactions.filter(function(t){return t.categoryId===id&&inMonth(t);})
+    .sort(function(a,b){ return a.date===b.date ? (b.id||0)-(a.id||0) : (a.date<b.date?1:-1); });
+  var total=list.reduce(function(a,t){return a+t.amount;},0);
+  var h='<div class="grab"></div>'
+   + '<div class="sheet-h">'+c.icon+' '+esc(c.name)+'</div>'
+   + '<div class="cap" style="margin:-10px 0 14px 4px">'+money(total)+' · '+plural(list.length,'операция','операции','операций')+' в этом месяце</div>';
+  if(!list.length){
+    h+='<div class="empty">В этом месяце сюда ничего не заносили</div>';
+  }else{
+    list.forEach(function(t){
+      var d=parseD(t.date);
+      h+='<div class="tx"><div class="bub" style="background:'+c.color+'1F">'+c.icon+'</div>'
+       + '<div class="body"><div class="nm">'+esc(t.note||c.name)+'</div>'
+       + '<div class="dt">'+esc(t.account||'')+' · '+d.getDate()+' '+MONTHS[d.getMonth()]+'</div></div>'
+       + '<div class="am '+(t.type==='income'?'inc':'')+'">'+(t.type==='income'?'+':'−')+money(t.amount)+'</div></div>';
+    });
+  }
+  h+='<button class="ghost" onclick="closeCatDetail()">Закрыть</button>';
+  document.getElementById('catDetailSheet').innerHTML=h;
+  document.getElementById('catDetailModal').classList.add('show');
+}
+function closeCatDetail(){ document.getElementById('catDetailModal').classList.remove('show'); }
+
 /* ---------- чек (демо-заглушка) ---------- */
 function startReceipt(){
   var f=document.getElementById('file');
@@ -1061,6 +1088,7 @@ function stopVoice(){
 document.getElementById('modal').addEventListener('click',function(e){ if(e.target===this) closeForm(); });
 document.getElementById('catModal').addEventListener('click',function(e){ if(e.target===this) closeCatForm(); });
 document.getElementById('planModal').addEventListener('click',function(e){ if(e.target===this) closePlan(); });
+document.getElementById('catDetailModal').addEventListener('click',function(e){ if(e.target===this) closeCatDetail(); });
 boot();
 </script>
 </body>
