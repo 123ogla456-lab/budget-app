@@ -1669,9 +1669,39 @@
       "note": "",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 146,
+      "date": "2026-09-30",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 2700.0,
+      "note": "спортпит для сына",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 147,
+      "date": "2026-09-30",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 2500.0,
+      "note": "сыну",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 148,
+      "date": "2026-09-30",
+      "categoryId": "dom-i-byt",
+      "type": "expense",
+      "amount": 779.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-30T16:44:01+03:00"
+  "updatedAt": "2026-09-30T21:00:01+03:00"
 }
