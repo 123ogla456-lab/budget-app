@@ -164,6 +164,27 @@ body{
 .tx .am.inc{color:#1B8C74}
 .src{font-size:10.5px;margin-left:5px;opacity:.6}
 
+/* ---------- по месяцам ---------- */
+.mrow{display:flex;align-items:center;gap:10px;padding:11px 0}
+.mrow+.mrow{border-top:1px solid #FBEFF4}
+.mrow .mn{flex:1;min-width:0}
+.mrow .mn b{display:block;font-size:13.5px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mrow .now{display:inline-block;font-size:9.5px;font-weight:800;background:var(--lav-soft);color:#5B3FC4;
+  border-radius:999px;padding:2px 7px;margin-left:6px;vertical-align:1px;text-transform:uppercase;letter-spacing:.04em}
+.mrow .bl{display:block;font-size:11px;font-weight:700;color:var(--muted);margin-top:3px}
+.mrow .bl.pos{color:#1B8C74}
+.mrow .bl.neg{color:var(--pink-deep)}
+.mrow .mv{flex:none;text-align:right;font-variant-numeric:tabular-nums}
+.mrow .mv b{display:block;font-family:var(--display);font-size:13px;font-weight:700;letter-spacing:-.02em;white-space:nowrap}
+.mrow .mv .e{margin-top:3px}
+.mrow .mv .i{color:#1B8C74}
+.mrow .mv .e{color:var(--pink-deep)}
+.mtot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:13px;
+  background:var(--pink-mist);border-radius:var(--r-in);padding:13px 15px;font-size:12.5px;font-weight:800}
+.mtot .v{font-family:var(--display);font-weight:700;letter-spacing:-.02em;white-space:nowrap}
+.mtot .v.pos{color:#1B8C74}
+.mtot .v.neg{color:var(--pink-deep)}
+
 /* ---------- нижняя панель ---------- */
 .dock{position:fixed;left:0;right:0;bottom:0;padding:14px 16px calc(16px + env(safe-area-inset-bottom));
   display:flex;justify-content:center;pointer-events:none;
@@ -354,6 +375,28 @@ function ymd(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0'
 function parseD(s){var p=String(s).split('-');return new Date(+p[0],+p[1]-1,+p[2]);}
 function cat(id){for(var i=0;i<D.categories.length;i++){if(D.categories[i].id===id)return D.categories[i];}return {name:'Без категории',color:'#9C8593',icon:'•',plan:0};}
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+
+function plural(n,one,few,many){
+  n=Math.abs(n)%100; var d=n%10;
+  if(n>10&&n<20) return many;
+  if(d>1&&d<5) return few;
+  return d===1?one:many;
+}
+/* Итоги по всем месяцам журнала: доход, расход, остаток.
+   Считаем из transactions, а не из плана, — план в data.json приходит
+   только за текущий месяц, а факт лежит за всю историю. */
+function byMonths(){
+  var m={};
+  D.transactions.forEach(function(t){
+    var k=String(t.date).slice(0,7);
+    if(!/^\d{4}-\d{2}$/.test(k)) return;
+    if(!m[k]) m[k]={key:k,inc:0,exp:0};
+    m[k][t.type==='income'?'inc':'exp']+=t.amount;
+  });
+  return Object.keys(m).sort().reverse().map(function(k){
+    var r=m[k]; r.bal=r.inc-r.exp; return r;
+  });
+}
 
 /* ---------- радость ---------- */
 function rain(kind){
@@ -651,6 +694,32 @@ function render(){
      + '<div class="dt">'+esc(c.name)+' · '+d.getDate()+' '+MONTHS[d.getMonth()]+'<span class="src">'+(SRC[t.source]||'')+'</span></div></div>'
      + '<div class="am '+(t.type==='income'?'inc':'')+'">'+(t.type==='income'?'+':'−')+money(t.amount)+'</div></div>';
   });
+  h+='</div>';
+
+  /* итоги по месяцам — внизу экрана, чтобы прошлые месяцы не терялись,
+     когда шапка уже показывает новый */
+  var mm=byMonths();
+  h+='<div class="card pop"><div class="h" style="margin-bottom:4px">По месяцам</div>';
+  if(!mm.length){
+    h+='<div class="empty">Пока нет ни одной операции</div>';
+  }else{
+    var curKey=ymd(today).slice(0,7), ti=0, te=0;
+    mm.forEach(function(r){
+      ti+=r.inc; te+=r.exp;
+      var y=+r.key.slice(0,4), mi=+r.key.slice(5,7)-1;
+      var nm=MONTHS_N[mi]+(y!==today.getFullYear()?' '+y:'');
+      h+='<div class="mrow">'
+       + '<div class="mn"><b>'+nm+(r.key===curKey?'<span class="now">сейчас</span>':'')+'</b>'
+       + '<span class="bl '+(r.bal<0?'neg':'pos')+'">остаток '+(r.bal>0?'+':'')+money(r.bal)+'</span></div>'
+       + '<div class="mv"><b class="i">+'+money(r.inc)+'</b><b class="e">−'+money(r.exp)+'</b></div>'
+       + '</div>';
+    });
+    if(mm.length>1){
+      var tb=ti-te;
+      h+='<div class="mtot"><span>Итого за '+mm.length+' '+plural(mm.length,'месяц','месяца','месяцев')+'</span>'
+       + '<span class="v '+(tb<0?'neg':'pos')+'">'+(tb>0?'+':'')+money(tb)+'</span></div>';
+    }
+  }
   h+='</div>';
 
   document.getElementById('screen').innerHTML=h;
