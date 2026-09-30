@@ -209,14 +209,6 @@
       "plan": 0,
       "color": "#FF8A6B",
       "icon": "🐾"
-    },
-    {
-      "id": "zarplata",
-      "name": "Зарплата",
-      "type": "income",
-      "plan": 0,
-      "color": "#3DBE7D",
-      "icon": "💰"
     }
   ],
   "transactions": [
@@ -1633,7 +1625,7 @@
     {
       "id": 142,
       "date": "2026-09-30",
-      "categoryId": "zarplata",
+      "categoryId": "chistodel",
       "type": "income",
       "amount": 15000.0,
       "note": "",
@@ -1723,5 +1715,5 @@
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-09-30T21:28:01+03:00"
+  "updatedAt": "2026-09-30T21:33:11+03:00"
 }
