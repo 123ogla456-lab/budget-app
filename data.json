@@ -1721,9 +1721,19 @@
       "note": "Самокат",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 152,
+      "date": "2026-10-01",
+      "categoryId": "dom-i-byt",
+      "type": "expense",
+      "amount": 3139.0,
+      "note": "Wildberries",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-01T11:58:01+03:00"
+  "updatedAt": "2026-10-01T12:02:01+03:00"
 }
