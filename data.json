@@ -1741,9 +1741,19 @@
       "note": "сервер для приложения",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 154,
+      "date": "2026-10-01",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 200.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-01T13:18:01+03:00"
+  "updatedAt": "2026-10-01T17:14:01+03:00"
 }
