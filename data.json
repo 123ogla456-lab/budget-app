@@ -1761,9 +1761,19 @@
       "note": "сыну",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 156,
+      "date": "2026-10-02",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 1574.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-02T15:30:01+03:00"
+  "updatedAt": "2026-10-02T16:34:01+03:00"
 }
