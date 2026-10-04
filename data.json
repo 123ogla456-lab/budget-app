@@ -1791,9 +1791,19 @@
       "note": "кэшбэк",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 159,
+      "date": "2026-10-04",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 819.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-04T22:40:01+03:00"
+  "updatedAt": "2026-10-04T22:42:01+03:00"
 }
