@@ -1781,9 +1781,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 158,
+      "date": "2026-10-04",
+      "categoryId": "vozvraty-i-prochee",
+      "type": "income",
+      "amount": 1019.0,
+      "note": "кэшбэк",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-02T18:32:01+03:00"
+  "updatedAt": "2026-10-04T22:40:01+03:00"
 }
