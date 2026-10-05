@@ -1801,9 +1801,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 160,
+      "date": "2026-10-05",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 5900.0,
+      "note": "Геткурс",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-04T22:42:01+03:00"
+  "updatedAt": "2026-10-05T07:44:01+03:00"
 }
