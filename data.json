@@ -1831,9 +1831,29 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 163,
+      "date": "2026-10-05",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 2100.0,
+      "note": "клиника, приём",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 164,
+      "date": "2026-10-05",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 5820.0,
+      "note": "клиника, приём",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-05T11:14:01+03:00"
+  "updatedAt": "2026-10-05T15:30:01+03:00"
 }
