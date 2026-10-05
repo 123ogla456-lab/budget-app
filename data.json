@@ -1821,9 +1821,19 @@
       "note": "нейминг приложения",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 162,
+      "date": "2026-10-05",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 169.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-05T08:10:01+03:00"
+  "updatedAt": "2026-10-05T11:14:01+03:00"
 }
