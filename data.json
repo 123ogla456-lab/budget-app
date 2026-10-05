@@ -1811,9 +1811,19 @@
       "note": "Геткурс",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 161,
+      "date": "2026-10-05",
+      "categoryId": "podryadchiki-i-frilans",
+      "type": "expense",
+      "amount": 12000.0,
+      "note": "нейминг приложения",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-05T07:44:01+03:00"
+  "updatedAt": "2026-10-05T08:10:01+03:00"
 }
