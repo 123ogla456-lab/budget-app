@@ -1851,9 +1851,19 @@
       "note": "клиника, приём",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 165,
+      "date": "2026-10-05",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 2000.0,
+      "note": "сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-05T15:30:01+03:00"
+  "updatedAt": "2026-10-05T18:16:01+03:00"
 }
