@@ -1871,9 +1871,19 @@
       "note": "отпускные",
       "account": "ЧистоДел",
       "source": "bot"
+    },
+    {
+      "id": 167,
+      "date": "2026-10-06",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 7199.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-06T10:00:01+03:00"
+  "updatedAt": "2026-10-06T10:52:01+03:00"
 }
