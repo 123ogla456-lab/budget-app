@@ -1911,9 +1911,19 @@
       "note": "кофе",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 171,
+      "date": "2026-10-06",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 3602.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-06T17:50:01+03:00"
+  "updatedAt": "2026-10-06T20:08:02+03:00"
 }
