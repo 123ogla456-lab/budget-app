@@ -1861,9 +1861,19 @@
       "note": "сыну",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 166,
+      "date": "2026-10-06",
+      "categoryId": "chistodel",
+      "type": "income",
+      "amount": 6800.0,
+      "note": "отпускные",
+      "account": "ЧистоДел",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-05T18:16:01+03:00"
+  "updatedAt": "2026-10-06T10:00:01+03:00"
 }
