@@ -1941,9 +1941,29 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 174,
+      "date": "2026-10-07",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 2500.0,
+      "note": "сыну",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 175,
+      "date": "2026-10-07",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 6000.0,
+      "note": "сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-07T15:34:01+03:00"
+  "updatedAt": "2026-10-07T20:42:01+03:00"
 }
