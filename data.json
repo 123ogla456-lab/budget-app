@@ -1991,9 +1991,19 @@
       "note": "Black Premium",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 179,
+      "date": "2026-10-08",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 2000.0,
+      "note": "сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-08T18:56:01+03:00"
+  "updatedAt": "2026-10-08T20:26:01+03:00"
 }
