@@ -1981,9 +1981,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 178,
+      "date": "2026-10-08",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 14589.0,
+      "note": "Black Premium",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-08T18:54:01+03:00"
+  "updatedAt": "2026-10-08T18:56:01+03:00"
 }
