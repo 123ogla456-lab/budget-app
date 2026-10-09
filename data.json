@@ -2001,9 +2001,29 @@
       "note": "сыну",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 180,
+      "date": "2026-10-09",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 1045.0,
+      "note": "Самокат",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 181,
+      "date": "2026-10-09",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 104.0,
+      "note": "чаевые, SberTips",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-08T20:26:01+03:00"
+  "updatedAt": "2026-10-09T10:18:01+03:00"
 }
