@@ -2021,9 +2021,19 @@
       "note": "чаевые, SberTips",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 182,
+      "date": "2026-10-09",
+      "categoryId": "shkola-klininga",
+      "type": "income",
+      "amount": 12600.0,
+      "note": "",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-09T10:18:01+03:00"
+  "updatedAt": "2026-10-09T12:26:01+03:00"
 }
