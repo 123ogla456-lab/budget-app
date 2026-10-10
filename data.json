@@ -2031,9 +2031,19 @@
       "note": "",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 183,
+      "date": "2026-10-10",
+      "categoryId": "ot-muzha",
+      "type": "income",
+      "amount": 100000.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-09T12:26:01+03:00"
+  "updatedAt": "2026-10-10T13:08:01+03:00"
 }
