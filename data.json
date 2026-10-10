@@ -2051,9 +2051,59 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 185,
+      "date": "2026-10-10",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 11140.0,
+      "note": "DEFILE",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 186,
+      "date": "2026-10-10",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 1000.0,
+      "note": "чаевые в ресторане",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 187,
+      "date": "2026-10-10",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 2500.0,
+      "note": "сыну",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 188,
+      "date": "2026-10-10",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 500.0,
+      "note": "чаевые",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 189,
+      "date": "2026-10-10",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 1165.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-10T13:22:01+03:00"
+  "updatedAt": "2026-10-10T21:04:01+03:00"
 }
