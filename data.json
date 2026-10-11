@@ -2101,9 +2101,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 190,
+      "date": "2026-10-11",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 435.0,
+      "note": "чаевые",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-10T21:04:01+03:00"
+  "updatedAt": "2026-10-11T17:20:01+03:00"
 }
