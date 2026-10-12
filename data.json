@@ -2141,9 +2141,19 @@
       "note": "",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 194,
+      "date": "2026-10-09",
+      "categoryId": "klinap",
+      "type": "income",
+      "amount": 6615.0,
+      "note": "зарплата",
+      "account": "Клинап",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-12T15:20:01+03:00"
+  "updatedAt": "2026-10-12T15:40:01+03:00"
 }
