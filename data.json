@@ -2151,9 +2151,29 @@
       "note": "зарплата",
       "account": "Клинап",
       "source": "bot"
+    },
+    {
+      "id": 195,
+      "date": "2026-10-04",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 870.0,
+      "note": "телефон",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 196,
+      "date": "2026-10-12",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 700.0,
+      "note": "мобильная связь сына",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-12T15:40:01+03:00"
+  "updatedAt": "2026-10-12T16:22:01+03:00"
 }
