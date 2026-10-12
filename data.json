@@ -2121,9 +2121,19 @@
       "note": "бухгалтер",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 192,
+      "date": "2026-10-12",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 2000.0,
+      "note": "сервер",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-12T09:30:01+03:00"
+  "updatedAt": "2026-10-12T11:52:01+03:00"
 }
