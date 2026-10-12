@@ -2211,9 +2211,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 201,
+      "date": "2026-10-12",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 1599.0,
+      "note": "оплата бота",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-12T20:00:01+03:00"
+  "updatedAt": "2026-10-12T22:00:01+03:00"
 }
