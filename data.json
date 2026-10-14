@@ -2231,9 +2231,39 @@
       "note": "Клапс",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 203,
+      "date": "2026-10-14",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 35014.0,
+      "note": "гостиница",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 204,
+      "date": "2026-10-14",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 220.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 205,
+      "date": "2026-10-14",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 821.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-13T20:10:01+03:00"
+  "updatedAt": "2026-10-14T19:02:01+03:00"
 }
