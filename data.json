@@ -2291,9 +2291,19 @@
       "note": "",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 210,
+      "date": "2026-10-16",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 6000.0,
+      "note": "сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-16T18:32:01+03:00"
+  "updatedAt": "2026-10-16T21:22:01+03:00"
 }
