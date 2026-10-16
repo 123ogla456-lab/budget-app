@@ -2281,9 +2281,19 @@
       "note": "ИП Дозоров М.Н.",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 209,
+      "date": "2026-10-16",
+      "categoryId": "nalogi-i-vznosy",
+      "type": "expense",
+      "amount": 28695.0,
+      "note": "",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-16T13:00:57+03:00"
+  "updatedAt": "2026-10-16T18:32:01+03:00"
 }
