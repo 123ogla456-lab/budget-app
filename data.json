@@ -2301,9 +2301,19 @@
       "note": "сыну",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 211,
+      "date": "2026-10-17",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 16950.0,
+      "note": "сумка",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-16T21:22:01+03:00"
+  "updatedAt": "2026-10-17T15:34:01+03:00"
 }
