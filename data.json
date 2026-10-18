@@ -2311,9 +2311,29 @@
       "note": "сумка",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 212,
+      "date": "2026-10-18",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 1570.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 213,
+      "date": "2026-10-18",
+      "categoryId": "semya-i-deti",
+      "type": "expense",
+      "amount": 1000.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-17T15:34:01+03:00"
+  "updatedAt": "2026-10-18T16:12:01+03:00"
 }
