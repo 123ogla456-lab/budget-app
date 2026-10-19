@@ -2361,9 +2361,29 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 217,
+      "date": "2026-10-19",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 1199.0,
+      "note": "REG.RU",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 218,
+      "date": "2026-10-18",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 11286.0,
+      "note": "AMAVI",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-18T23:30:02+03:00"
+  "updatedAt": "2026-10-19T06:38:01+03:00"
 }
