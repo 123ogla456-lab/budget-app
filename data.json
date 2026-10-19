@@ -2381,9 +2381,19 @@
       "note": "AMAVI",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 219,
+      "date": "2026-10-19",
+      "categoryId": "arenda-kvartiry",
+      "type": "income",
+      "amount": 50814.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-19T06:38:01+03:00"
+  "updatedAt": "2026-10-19T09:30:01+03:00"
 }
