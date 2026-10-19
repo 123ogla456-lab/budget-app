@@ -2411,9 +2411,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 222,
+      "date": "2026-10-19",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 3700.0,
+      "note": "косметолог",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-19T18:42:01+03:00"
+  "updatedAt": "2026-10-19T19:00:01+03:00"
 }
