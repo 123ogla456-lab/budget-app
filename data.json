@@ -2431,9 +2431,29 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 224,
+      "date": "2026-10-20",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 13194.0,
+      "note": "Lamoda",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 225,
+      "date": "2026-10-20",
+      "categoryId": "deti-karmannye-rashody",
+      "type": "expense",
+      "amount": 200.0,
+      "note": "сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-19T21:02:01+03:00"
+  "updatedAt": "2026-10-20T16:48:01+03:00"
 }
