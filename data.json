@@ -2451,9 +2451,29 @@
       "note": "сыну",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 226,
+      "date": "2026-10-20",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 2707.0,
+      "note": "Яндекс Еда",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 227,
+      "date": "2026-10-20",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 8.0,
+      "note": "Яндекс Еда",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-20T16:48:01+03:00"
+  "updatedAt": "2026-10-20T21:02:01+03:00"
 }
