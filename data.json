@@ -2501,9 +2501,29 @@
       "note": "маникюр, NAILBOSS",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 231,
+      "date": "2026-10-21",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 8528.0,
+      "note": "WB",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 232,
+      "date": "2026-10-21",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 1000.0,
+      "note": "учебник сыну, WB",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-21T18:46:01+03:00"
+  "updatedAt": "2026-10-21T19:32:01+03:00"
 }
