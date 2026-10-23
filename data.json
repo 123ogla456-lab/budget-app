@@ -2601,9 +2601,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 241,
+      "date": "2026-10-23",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 4000.0,
+      "note": "УЗИ",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-23T13:40:01+03:00"
+  "updatedAt": "2026-10-23T14:04:01+03:00"
 }
