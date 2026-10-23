@@ -2581,9 +2581,29 @@
       "note": "сыну",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 239,
+      "date": "2026-10-23",
+      "categoryId": "shkola-klininga",
+      "type": "income",
+      "amount": 7710.35,
+      "note": "ГетКурс",
+      "account": "Школа",
+      "source": "bot"
+    },
+    {
+      "id": 240,
+      "date": "2026-10-23",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 2000.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-23T12:46:01+03:00"
+  "updatedAt": "2026-10-23T13:40:01+03:00"
 }
