@@ -2651,9 +2651,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 246,
+      "date": "2026-10-25",
+      "categoryId": "semya-i-deti",
+      "type": "expense",
+      "amount": 7300.0,
+      "note": "подарок сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-24T21:02:01+03:00"
+  "updatedAt": "2026-10-25T15:52:01+03:00"
 }
