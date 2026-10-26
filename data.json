@@ -2661,9 +2661,29 @@
       "note": "подарок сыну",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 247,
+      "date": "2026-10-26",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 3000.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 248,
+      "date": "2026-10-26",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 567.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-25T15:52:01+03:00"
+  "updatedAt": "2026-10-26T11:56:01+03:00"
 }
