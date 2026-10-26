@@ -2701,9 +2701,69 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 251,
+      "date": "2026-10-26",
+      "categoryId": "nalogi-i-vznosy",
+      "type": "expense",
+      "amount": 12546.0,
+      "note": "",
+      "account": "Школа",
+      "source": "bot"
+    },
+    {
+      "id": 252,
+      "date": "2026-10-26",
+      "categoryId": "dom-i-byt",
+      "type": "expense",
+      "amount": 5402.79,
+      "note": "",
+      "account": "ЧистоДел",
+      "source": "bot"
+    },
+    {
+      "id": 253,
+      "date": "2026-10-26",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 3700.0,
+      "note": "косметолог",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 254,
+      "date": "2026-10-26",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 308.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 255,
+      "date": "2026-10-26",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 378.0,
+      "note": "кофе",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 256,
+      "date": "2026-10-26",
+      "categoryId": "shkola-klininga",
+      "type": "income",
+      "amount": 30783.5,
+      "note": "ГетКурс",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-26T15:10:01+03:00"
+  "updatedAt": "2026-10-26T22:14:02+03:00"
 }
