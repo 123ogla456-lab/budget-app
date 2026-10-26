@@ -2761,9 +2761,19 @@
       "note": "ГетКурс",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 257,
+      "date": "2026-10-27",
+      "categoryId": "ot-muzha",
+      "type": "income",
+      "amount": 100000.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-26T22:14:02+03:00"
+  "updatedAt": "2026-10-27T00:00:07+03:00"
 }
