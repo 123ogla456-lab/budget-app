@@ -2801,9 +2801,19 @@
       "note": "",
       "account": "Клинап",
       "source": "bot"
+    },
+    {
+      "id": 261,
+      "date": "2026-10-28",
+      "categoryId": "shkola-klininga",
+      "type": "income",
+      "amount": 9650.0,
+      "note": "ГетКурс",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-27T16:37:35+03:00"
+  "updatedAt": "2026-10-28T21:04:06+03:00"
 }
