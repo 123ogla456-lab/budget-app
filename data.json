@@ -2811,9 +2811,19 @@
       "note": "ГетКурс",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 262,
+      "date": "2026-10-28",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 1198.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-28T21:04:06+03:00"
+  "updatedAt": "2026-10-28T21:08:32+03:00"
 }
