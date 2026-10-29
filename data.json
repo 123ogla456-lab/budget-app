@@ -2871,9 +2871,19 @@
       "note": "Dodo Pizza",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 268,
+      "date": "2026-10-29",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 37971.0,
+      "note": "Lamoda",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-29T19:00:23+03:00"
+  "updatedAt": "2026-10-29T19:00:53+03:00"
 }
