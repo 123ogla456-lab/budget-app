@@ -2941,9 +2941,19 @@
       "note": "Яндекс Такси",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 275,
+      "date": "2026-10-31",
+      "categoryId": "deti-karmannye-rashody",
+      "type": "expense",
+      "amount": 3000.0,
+      "note": "сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-31T19:59:18+03:00"
+  "updatedAt": "2026-10-31T19:59:50+03:00"
 }
