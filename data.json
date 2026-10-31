@@ -2911,9 +2911,19 @@
       "note": "Яндекс Такси",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 272,
+      "date": "2026-10-31",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 3684.0,
+      "note": "сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-31T11:52:11+03:00"
+  "updatedAt": "2026-10-31T13:33:46+03:00"
 }
