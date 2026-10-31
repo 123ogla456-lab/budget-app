@@ -2951,9 +2951,49 @@
       "note": "сыну",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 276,
+      "date": "2026-10-31",
+      "categoryId": "deti-obuchenie-i-sekcii",
+      "type": "expense",
+      "amount": 1416.0,
+      "note": "учебник сыну",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 277,
+      "date": "2026-10-30",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 2990.0,
+      "note": "Premium Black",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 278,
+      "date": "2026-10-28",
+      "categoryId": "dom-i-byt",
+      "type": "expense",
+      "amount": 959.6,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 279,
+      "date": "2026-10-28",
+      "categoryId": "dom-i-byt",
+      "type": "expense",
+      "amount": 734.27,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-31T19:59:50+03:00"
+  "updatedAt": "2026-10-31T20:01:58+03:00"
 }
