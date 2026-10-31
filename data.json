@@ -2921,9 +2921,29 @@
       "note": "сыну",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 273,
+      "date": "2026-10-31",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 1030.0,
+      "note": "Яндекс Такси ULTIMA",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 274,
+      "date": "2026-10-31",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 586.0,
+      "note": "Яндекс Такси",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-10-31T13:33:46+03:00"
+  "updatedAt": "2026-10-31T19:59:18+03:00"
 }
