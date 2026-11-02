@@ -3001,9 +3001,39 @@
       "note": "сервер",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 281,
+      "date": "2026-11-02",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 1495.0,
+      "note": "FRESH",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 282,
+      "date": "2026-11-02",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 8914.0,
+      "note": "Wildberries",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 283,
+      "date": "2026-11-02",
+      "categoryId": "transport-i-poezdki",
+      "type": "expense",
+      "amount": 311.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-01T00:23:16+03:00"
+  "updatedAt": "2026-11-02T23:13:14+03:00"
 }
