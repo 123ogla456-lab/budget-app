@@ -3041,9 +3041,19 @@
       "note": "косметолог",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 285,
+      "date": "2026-11-03",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 5900.0,
+      "note": "GetCourse",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-02T23:13:19+03:00"
+  "updatedAt": "2026-11-03T09:17:20+03:00"
 }
