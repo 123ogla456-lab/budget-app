@@ -3051,9 +3051,19 @@
       "note": "GetCourse",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 286,
+      "date": "2026-11-03",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 870.0,
+      "note": "Мегафон",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-03T09:17:20+03:00"
+  "updatedAt": "2026-11-03T11:06:43+03:00"
 }
