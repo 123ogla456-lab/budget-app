@@ -3071,9 +3071,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 288,
+      "date": "2026-11-03",
+      "categoryId": "deti-karmannye-rashody",
+      "type": "expense",
+      "amount": 200.0,
+      "note": "сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-03T11:41:55+03:00"
+  "updatedAt": "2026-11-03T14:59:17+03:00"
 }
