@@ -3061,9 +3061,19 @@
       "note": "Мегафон",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 287,
+      "date": "2026-11-03",
+      "categoryId": "odezhda-i-krasota",
+      "type": "expense",
+      "amount": 5250.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-03T11:06:43+03:00"
+  "updatedAt": "2026-11-03T11:41:55+03:00"
 }
