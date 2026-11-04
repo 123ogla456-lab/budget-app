@@ -3091,9 +3091,29 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 290,
+      "date": "2026-11-04",
+      "categoryId": "podryadchiki-i-frilans",
+      "type": "expense",
+      "amount": 4990.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 291,
+      "date": "2026-11-04",
+      "categoryId": "biznes",
+      "type": "expense",
+      "amount": 3500.0,
+      "note": "билет на мероприятие",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-04T01:30:39+03:00"
+  "updatedAt": "2026-11-04T21:01:42+03:00"
 }
