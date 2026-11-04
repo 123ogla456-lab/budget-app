@@ -3111,9 +3111,19 @@
       "note": "билет на мероприятие",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 292,
+      "date": "2026-10-31",
+      "categoryId": "ot-muzha",
+      "type": "income",
+      "amount": 50000.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-04T21:01:42+03:00"
+  "updatedAt": "2026-11-04T21:03:38+03:00"
 }
