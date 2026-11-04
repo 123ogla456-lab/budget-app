@@ -3121,9 +3121,19 @@
       "note": "",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 293,
+      "date": "2026-10-30",
+      "categoryId": "chistodel",
+      "type": "income",
+      "amount": 15000.0,
+      "note": "",
+      "account": "ЧистоДел",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-04T21:03:38+03:00"
+  "updatedAt": "2026-11-04T21:05:38+03:00"
 }
