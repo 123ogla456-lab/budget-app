@@ -3201,9 +3201,19 @@
       "note": "Magnit",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 301,
+      "date": "2026-11-05",
+      "categoryId": "deti-karmannye-rashody",
+      "type": "expense",
+      "amount": 300.0,
+      "note": "сыну",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-05T21:49:28+03:00"
+  "updatedAt": "2026-11-05T21:49:34+03:00"
 }
