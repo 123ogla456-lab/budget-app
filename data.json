@@ -3161,9 +3161,19 @@
       "note": "перевод + комиссия, обучение сына",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 297,
+      "date": "2026-11-05",
+      "categoryId": "dom-i-byt",
+      "type": "expense",
+      "amount": 1555.0,
+      "note": "товары для дома",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-04T21:11:53+03:00"
+  "updatedAt": "2026-11-05T10:12:01+03:00"
 }
