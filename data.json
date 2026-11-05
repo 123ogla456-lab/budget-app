@@ -3181,9 +3181,29 @@
       "note": "",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 299,
+      "date": "2026-11-05",
+      "categoryId": "biznes",
+      "type": "expense",
+      "amount": 1900.0,
+      "note": "перевод Ольга К.",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 300,
+      "date": "2026-11-05",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 494.95,
+      "note": "Magnit",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-05T17:39:01+03:00"
+  "updatedAt": "2026-11-05T21:49:28+03:00"
 }
