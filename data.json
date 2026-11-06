@@ -3261,9 +3261,19 @@
       "note": "VPN",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 307,
+      "date": "2026-11-07",
+      "categoryId": "ot-muzha",
+      "type": "income",
+      "amount": 100000.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-06T17:20:32+03:00"
+  "updatedAt": "2026-11-07T00:35:03+03:00"
 }
