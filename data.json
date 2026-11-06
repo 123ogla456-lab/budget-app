@@ -3241,9 +3241,19 @@
       "note": "",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 305,
+      "date": "2026-11-06",
+      "categoryId": "shkola-klininga",
+      "type": "income",
+      "amount": 20000.0,
+      "note": "",
+      "account": "Школа",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-06T13:57:13+03:00"
+  "updatedAt": "2026-11-06T17:20:16+03:00"
 }
