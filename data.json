@@ -3251,9 +3251,19 @@
       "note": "",
       "account": "Школа",
       "source": "bot"
+    },
+    {
+      "id": 306,
+      "date": "2026-11-06",
+      "categoryId": "servisy-i-podpiski",
+      "type": "expense",
+      "amount": 610.0,
+      "note": "VPN",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-06T17:20:16+03:00"
+  "updatedAt": "2026-11-06T17:20:32+03:00"
 }
