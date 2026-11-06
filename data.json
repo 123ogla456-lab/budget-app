@@ -3211,9 +3211,29 @@
       "note": "сыну",
       "account": "Личное",
       "source": "bot"
+    },
+    {
+      "id": 302,
+      "date": "2026-11-06",
+      "categoryId": "pitanie",
+      "type": "expense",
+      "amount": 500.0,
+      "note": "кофе",
+      "account": "Личное",
+      "source": "bot"
+    },
+    {
+      "id": 303,
+      "date": "2026-11-06",
+      "categoryId": "zdorove",
+      "type": "expense",
+      "amount": 1200.0,
+      "note": "",
+      "account": "Личное",
+      "source": "bot"
     }
   ],
   "mockReceipts": [],
   "mockVoice": [],
-  "updatedAt": "2026-11-05T21:49:34+03:00"
+  "updatedAt": "2026-11-06T13:11:31+03:00"
 }
